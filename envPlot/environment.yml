@@ -1,0 +1,28 @@
+name: camus
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.3.1=h2bc3f7f_2
+  - datashader=0.13.0=pyhd3eb1b0_1
+  - h5py=3.7.0=py310he06866b_0
+  - hdf5=1.10.6=h3ffc7dd_1
+  - matplotlib=3.5.1=py310h06a4308_1
+  - numpy=1.22.3=py310hfa59a62_0
+  - python=3.10.4=h12debd9_0
+  - torchaudio=0.11.0=py310_cu113
+  - torchvision=0.12.0=py310_cu113
+  - tqdm=4.64.0=pyhd8ed1ab_0
+  - pip:
+    - absl-py==1.1.0
+    - ai2thor==4.3.0
+    - ai2thor-colab==0.1.2
+    - pip==22.3
+    - plotly==5.11.0
+    - protobuf==3.20.1
+    - scikit-image==0.19.3
+    - seaborn==0.12.1
+    - umap-learn==0.5.2
+    - vocab==0.0.5
+prefix: /home/arty/miniconda3/envs/camus
